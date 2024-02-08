@@ -1,11 +1,11 @@
 /**
  * 
  */
-package br.com.rpires.dao;
+package br.com.gregori.dao;
 
-import br.com.rpires.dao.generic.IGenericDAO;
-import br.com.rpires.domain.Venda;
-import br.com.rpires.exceptions.TipoChaveNaoEncontradaException;
+import br.com.gregori.dao.generic.IGenericDAO;
+import br.com.gregori.domain.Venda;
+import br.com.gregori.exceptions.TipoChaveNaoEncontradaException;
 
 /**
  * @author rodrigo.pires

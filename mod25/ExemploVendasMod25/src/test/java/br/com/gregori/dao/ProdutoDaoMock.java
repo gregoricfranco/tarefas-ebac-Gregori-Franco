@@ -1,12 +1,12 @@
 /**
  * 
  */
-package br.com.rpires.dao;
+package br.com.gregori.dao;
 
 import java.util.Collection;
 
-import br.com.rpires.domain.Produto;
-import br.com.rpires.exceptions.TipoChaveNaoEncontradaException;
+import br.com.gregori.domain.Produto;
+import br.com.gregori.exceptions.TipoChaveNaoEncontradaException;
 
 /**
  * @author rodrigo.pires

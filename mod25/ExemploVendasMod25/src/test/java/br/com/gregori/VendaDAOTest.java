@@ -15,17 +15,17 @@ import java.time.Instant;
 import org.junit.Before;
 import org.junit.Test;
 
-import br.com.rpires.dao.ClienteDAO;
-import br.com.rpires.dao.IClienteDAO;
-import br.com.rpires.dao.IProdutoDAO;
-import br.com.rpires.dao.IVendaDAO;
-import br.com.rpires.dao.ProdutoDAO;
-import br.com.rpires.dao.VendaDAO;
-import br.com.rpires.domain.Cliente;
-import br.com.rpires.domain.Produto;
-import br.com.rpires.domain.Venda;
-import br.com.rpires.domain.Venda.Status;
-import br.com.rpires.exceptions.TipoChaveNaoEncontradaException;
+import br.com.gregori.dao.ClienteDAO;
+import br.com.gregori.dao.IClienteDAO;
+import br.com.gregori.dao.IProdutoDAO;
+import br.com.gregori.dao.IVendaDAO;
+import br.com.gregori.dao.ProdutoDAO;
+import br.com.gregori.dao.VendaDAO;
+import br.com.gregori.domain.Cliente;
+import br.com.gregori.domain.Produto;
+import br.com.gregori.domain.Venda;
+import br.com.gregori.domain.Venda.Status;
+import br.com.gregori.exceptions.TipoChaveNaoEncontradaException;
 
 /**
  * @author rodrigo.pires

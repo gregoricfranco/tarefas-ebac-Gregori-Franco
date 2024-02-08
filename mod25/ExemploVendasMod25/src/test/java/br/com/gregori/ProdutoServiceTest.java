@@ -9,12 +9,12 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import br.com.rpires.dao.IProdutoDAO;
-import br.com.rpires.dao.ProdutoDaoMock;
-import br.com.rpires.domain.Produto;
-import br.com.rpires.exceptions.TipoChaveNaoEncontradaException;
-import br.com.rpires.services.IProdutoService;
-import br.com.rpires.services.ProdutoService;
+import br.com.gregori.dao.IProdutoDAO;
+import br.com.gregori.dao.ProdutoDaoMock;
+import br.com.gregori.domain.Produto;
+import br.com.gregori.exceptions.TipoChaveNaoEncontradaException;
+import br.com.gregori.services.IProdutoService;
+import br.com.gregori.services.ProdutoService;
 
 public class ProdutoServiceTest {
 

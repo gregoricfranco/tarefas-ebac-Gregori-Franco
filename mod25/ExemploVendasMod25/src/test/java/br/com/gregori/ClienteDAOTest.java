@@ -11,10 +11,10 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import br.com.rpires.dao.ClienteDAO;
-import br.com.rpires.dao.IClienteDAO;
-import br.com.rpires.domain.Cliente;
-import br.com.rpires.exceptions.TipoChaveNaoEncontradaException;
+import br.com.gregori.dao.ClienteDAO;
+import br.com.gregori.dao.IClienteDAO;
+import br.com.gregori.domain.Cliente;
+import br.com.gregori.exceptions.TipoChaveNaoEncontradaException;
 ClienteDAOTest {
 	
 	private IClienteDAO clienteDao;

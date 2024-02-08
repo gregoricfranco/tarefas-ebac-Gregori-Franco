@@ -1,17 +1,14 @@
 /**
  * 
  */
-package br.com.rpires.services;
+package br.com.gregori.services;
 
-import br.com.rpires.dao.IClienteDAO;
-import br.com.rpires.domain.Cliente;
-import br.com.rpires.exceptions.TipoChaveNaoEncontradaException;
-import br.com.rpires.services.generic.GenericService;
+import br.com.gregori.dao.IClienteDAO;
+import br.com.gregori.domain.Cliente;
+import br.com.gregori.exceptions.TipoChaveNaoEncontradaException;
+import br.com.gregori.services.generic.GenericService;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class ClienteService extends GenericService<Cliente, Long> implements IClienteService {
 	
 	//private IClienteDAO clienteDAO;

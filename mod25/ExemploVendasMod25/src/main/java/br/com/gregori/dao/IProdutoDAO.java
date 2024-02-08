@@ -1,10 +1,10 @@
 /**
  * 
  */
-package br.com.rpires.dao;
+package br.com.gregori.dao;
 
-import br.com.rpires.dao.generic.IGenericDAO;
-import br.com.rpires.domain.Produto;
+import br.com.gregori.dao.generic.IGenericDAO;
+import br.com.gregori.domain.Produto;
 
 /**
  * @author rodrigo.pires

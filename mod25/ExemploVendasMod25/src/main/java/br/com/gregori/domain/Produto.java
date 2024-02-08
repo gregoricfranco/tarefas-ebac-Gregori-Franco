@@ -1,17 +1,13 @@
 /**
  * 
  */
-package br.com.rpires.domain;
+package br.com.gregori.domain;
 
 import java.math.BigDecimal;
 
 import anotacao.TipoChave;
-import br.com.rpires.dao.Persistente;
+import br.com.gregori.dao.Persistente;
 
-/**
- * @author rodrigo.pires
- *
- */
 public class Produto implements Persistente {
 
 	@TipoChave("getCodigo")

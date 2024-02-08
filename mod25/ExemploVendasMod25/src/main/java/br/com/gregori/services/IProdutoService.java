@@ -1,10 +1,10 @@
 /**
  * 
  */
-package br.com.rpires.services;
+package br.com.gregori.services;
 
-import br.com.rpires.domain.Produto;
-import br.com.rpires.services.generic.IGenericService;
+import br.com.gregori.domain.Produto;
+import br.com.gregori.services.generic.IGenericService;
 
 /**
  * @author rodrigo.pires

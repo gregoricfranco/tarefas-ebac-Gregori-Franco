@@ -5,12 +5,12 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import br.com.rpires.dao.ClienteDaoMock;
-import br.com.rpires.dao.IClienteDAO;
-import br.com.rpires.domain.Cliente;
-import br.com.rpires.exceptions.TipoChaveNaoEncontradaException;
-import br.com.rpires.services.ClienteService;
-import br.com.rpires.services.IClienteService;
+import br.com.gregori.dao.ClienteDaoMock;
+import br.com.gregori.dao.IClienteDAO;
+import br.com.gregori.domain.Cliente;
+import br.com.gregori.exceptions.TipoChaveNaoEncontradaException;
+import br.com.gregori.services.ClienteService;
+import br.com.gregori.services.IClienteService;
 
 /**
  * @author rodrigo.pires

@@ -1,7 +1,7 @@
-package br.com.rpires.dao.generic;
+package br.com.gregori.dao.generic;
 
-import br.com.rpires.dao.Persistente;
-import br.com.rpires.exceptions.TipoChaveNaoEncontradaException;
+import br.com.gregori.dao.Persistente;
+import br.com.gregori.exceptions.TipoChaveNaoEncontradaException;
 
 import java.io.Serializable;
 import java.util.Collection;

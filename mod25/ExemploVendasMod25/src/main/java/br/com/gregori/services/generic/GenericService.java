@@ -1,19 +1,16 @@
 /**
  * 
  */
-package br.com.rpires.services.generic;
+package br.com.gregori.services.generic;
 
 import java.io.Serializable;
 import java.util.Collection;
 
-import br.com.rpires.dao.Persistente;
-import br.com.rpires.dao.generic.IGenericDAO;
-import br.com.rpires.exceptions.TipoChaveNaoEncontradaException;
+import br.com.gregori.dao.Persistente;
+import br.com.gregori.dao.generic.IGenericDAO;
+import br.com.gregori.exceptions.TipoChaveNaoEncontradaException;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public abstract class GenericService<T extends Persistente, E extends Serializable> 
 	implements IGenericService<T, E> {
 	

@@ -12,10 +12,10 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import br.com.rpires.dao.IProdutoDAO;
-import br.com.rpires.dao.ProdutoDAO;
-import br.com.rpires.domain.Produto;
-import br.com.rpires.exceptions.TipoChaveNaoEncontradaException;
+import br.com.gregori.dao.IProdutoDAO;
+import br.com.gregori.dao.ProdutoDAO;
+import br.com.gregori.domain.Produto;
+import br.com.gregori.exceptions.TipoChaveNaoEncontradaException;
 
 
 public class ProdutoDAOTest {

@@ -1,15 +1,12 @@
 /**
  * 
  */
-package br.com.rpires.domain;
+package br.com.gregori.domain;
 
 import anotacao.TipoChave;
-import br.com.rpires.dao.Persistente;
+import br.com.gregori.dao.Persistente;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class Cliente implements Persistente {
 	
 	private String nome;

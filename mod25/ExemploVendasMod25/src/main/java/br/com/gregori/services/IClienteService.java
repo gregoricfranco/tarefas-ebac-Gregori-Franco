@@ -1,10 +1,10 @@
 /**
  * 
  */
-package br.com.rpires.services;
+package br.com.gregori.services;
 
-import br.com.rpires.domain.Cliente;
-import br.com.rpires.exceptions.TipoChaveNaoEncontradaException;
+import br.com.gregori.domain.Cliente;
+import br.com.gregori.exceptions.TipoChaveNaoEncontradaException;
 
 /**
  * @author rodrigo.pires

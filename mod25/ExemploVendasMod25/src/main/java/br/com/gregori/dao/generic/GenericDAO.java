@@ -1,4 +1,4 @@
-package br.com.rpires.dao.generic;
+package br.com.gregori.dao.generic;
 
 import java.io.Serializable;
 import java.lang.reflect.Field;
@@ -9,8 +9,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 import anotacao.TipoChave;
-import br.com.rpires.dao.Persistente;
-import br.com.rpires.exceptions.TipoChaveNaoEncontradaException;
+import br.com.gregori.dao.Persistente;
+import br.com.gregori.exceptions.TipoChaveNaoEncontradaException;
 
 /**
  * @author rodrigo.pires

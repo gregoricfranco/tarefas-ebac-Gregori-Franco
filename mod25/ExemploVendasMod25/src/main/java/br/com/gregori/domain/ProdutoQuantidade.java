@@ -1,14 +1,11 @@
 /**
  * 
  */
-package br.com.rpires.domain;
+package br.com.gregori.domain;
 
 import java.math.BigDecimal;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class ProdutoQuantidade {
 
 	private Produto produto;

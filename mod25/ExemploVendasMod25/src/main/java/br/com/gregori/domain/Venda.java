@@ -1,7 +1,7 @@
 /**
  * 
  */
-package br.com.rpires.domain;
+package br.com.gregori.domain;
 
 import java.math.BigDecimal;
 import java.time.Instant;
@@ -10,12 +10,9 @@ import java.util.Optional;
 import java.util.Set;
 
 import anotacao.TipoChave;
-import br.com.rpires.dao.Persistente;
+import br.com.gregori.dao.Persistente;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class Venda implements Persistente {
 	
 	public enum Status {
