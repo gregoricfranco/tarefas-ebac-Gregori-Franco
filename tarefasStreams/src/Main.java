@@ -13,9 +13,9 @@ public class Main {
         System.out.println("Digite os nomes e sexo :");
         List<String> nomesSexo = Arrays.asList(leituraDeDados().split(","));
 
-      Map<String, List<Pessoa>> listaPessoas = nomesSexo.stream()
-                .map(nomeSexo -> nomeSexo.split("-"))
-                .map(nomeSexos -> new Pessoa(nomeSexos[0], nomeSexos[1]))
+        Map<String, List<Pessoa>> listaPessoas = nomesSexo.stream()
+                .map(nomeSexo -> new Pessoa(nomeSexo.split("-")[0], nomeSexo.split("-")[1]))
+                .filter(pessoa -> pessoa.getSexo().equals("feminino"))
                 .collect(Collectors.groupingBy(pessoa -> pessoa.getSexo()));
 
         listaPessoas.forEach((sexo, pessoas)->{
