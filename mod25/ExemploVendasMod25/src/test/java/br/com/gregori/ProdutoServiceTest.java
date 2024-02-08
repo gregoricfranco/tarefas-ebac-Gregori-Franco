@@ -1,7 +1,7 @@
 /**
  * 
  */
-package br.com.rpires;
+package br.com.gregori;
 
 import java.math.BigDecimal;
 

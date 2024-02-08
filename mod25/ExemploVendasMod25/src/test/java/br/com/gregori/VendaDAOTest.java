@@ -1,7 +1,8 @@
 /**
  * 
  */
-package br.com.rpires;
+
+package br.com.gregori;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;

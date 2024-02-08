@@ -1,5 +1,5 @@
 
-package br.com.rpires;
+package br.com.gregori;
 
 import org.junit.Assert;
 import org.junit.Before;

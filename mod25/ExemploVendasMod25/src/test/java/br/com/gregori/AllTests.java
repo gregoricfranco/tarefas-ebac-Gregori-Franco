@@ -1,7 +1,7 @@
 /**
  * 
  */
-package br.com.rpires;
+package br.com.gregori;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
